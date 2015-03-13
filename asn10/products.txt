@@ -1,0 +1,9 @@
+Houseplant
+8.49
+20
+Garden Trowel
+12.99
+10
+Fertilizer
+5.00
+15

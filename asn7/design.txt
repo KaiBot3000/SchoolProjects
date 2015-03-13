@@ -1,0 +1,26 @@
+problem: Print out the postal barcode version of an inputted 
+	zipcode. 
+	
+	q- What else is included in a postal barcode?
+		a- Frame bars and check numbers.	
+	q- How can we create check numbers?
+		a- Add the digits and use mod.
+	q- How can we end the program?
+		a- Use a sentinel value of 0.
+
+
+steps:
+
+-Prompt user to enter zipcode
+
+-split zipcode and number into individual characters <-- function that repeats for each digit
+
+-Add digits of zipcode to get total mod 10 to get check number <-- function
+
+-convert characters into zipcode chunks using if statements <-- function
+
+-assemble chunks with framebars
+
+-output zipcode
+
+Loop- prompt, enter zipcode, test zipcode, call zipcode function, output barcode |,

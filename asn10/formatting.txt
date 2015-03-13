@@ -1,0 +1,8 @@
+1) 4
+2) ios::right
+3) 5 digits. Set width was overridden by the length of the number.
+4) It doesn't allow the user to enter a name.
+5) It fixed it by clearing the whitespace, allowing the user to 
+	enter in another input.
+6) One would have to know exactly how many characters to ignore 
+	with cin.ignore(). cin << ws allows more flexibility.
